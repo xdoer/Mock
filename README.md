@@ -74,7 +74,7 @@ module.export = faker => {
 
 ### 自动重启
 
-mock 路由编辑完之后，需要重新启动 mock 服务器
+mock 路由编辑完之后，需要重新启动 mock 服务器。需要引入 [ScriptRunner](https://github.com/xdoer/ScriptRunner) 管理和运行
 
 ```ts
 import { Config } from '@xdoer/script-runner/lib/types';
